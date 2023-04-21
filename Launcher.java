@@ -58,9 +58,9 @@ public class Launcher {
         Map<String,String> message_config = new HashMap<>();
         message_config.put("hostname","vbu231.cs.uky.edu");
         message_config.put("port","9099");
-        message_config.put("username","team_15");
+        message_config.put("username","team_14");
         message_config.put("password","myPassCS505");
-        message_config.put("virtualhost","15");
+        message_config.put("virtualhost","14");
 
         topicConnector = new TopicConnector(message_config);
         topicConnector.connect();
