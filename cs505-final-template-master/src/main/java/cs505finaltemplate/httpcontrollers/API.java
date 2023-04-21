@@ -41,8 +41,8 @@ public class API {
         try {
             System.out.println("WHAT");
             Map<String,String> responseMap = new HashMap<>();
-            responseMap.put("team_name", "Basing the Data");
-            responseMap.put("Team_members_sids", "[12239795, 12272709, 12343798, 12296662]");
+            responseMap.put("team_name", "Incognito Mode");
+            responseMap.put("Team_members_sids", "[912653262, 912228415]");
             responseMap.put("app_status_code","1");
 
             responseString = gson.toJson(responseMap);
