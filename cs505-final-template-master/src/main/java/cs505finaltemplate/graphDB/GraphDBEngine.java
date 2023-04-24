@@ -39,7 +39,7 @@ public class GraphDBEngine {
         OrientDB client = new OrientDB("remote:localhost", user, pass, OrientDBConfig.defaultConfig());
 
         // Reset database and start new one
-        resetDB(client);
+        rebuild(client);
         client.close();
 
     }
