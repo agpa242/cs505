@@ -57,7 +57,7 @@ public class Launcher {
 
         //start message collector
         Map<String,String> message_config = new HashMap<>();
-        message_config.put("hostname","agpa242.cs.uky.edu");
+        message_config.put("hostname","vbu231.cs.uky.edu");
         message_config.put("port","9099");
         message_config.put("username","team_14");
         message_config.put("password","myPassCS505");
