@@ -23,7 +23,7 @@ import cs505finaltemplate.Topics.PatientData;
 import cs505finaltemplate.Topics.VaccinationData;
 
 public class GraphDBEngine {
-    private static String dbName = "BasingTheData";
+    private static String dbName = "FinalProject";
     private static String user = "root";
     private static String pass = "rootpwd";
 
